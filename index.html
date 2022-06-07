@@ -12,7 +12,12 @@
             <meta name='x5-fullscreen' content='true' />
             <!-- 360浏览器独有的 -->
             <meta name='360-fullscreen' content='true' />
-            <title>金水区企业健康扫码</title>
+            <script type="text/javascript">
+                var mytitle=prompt("请输入网页标题，如\n入郑健康扫码\n郑州市餐饮健康扫码\n金水区办公楼健康扫码\n公共服务健康扫码\n金水区企业健康扫码\n全市居民小区健康登记管理系统","河南省疫情防控场所码");
+                var myname=prompt("请输入姓名，如\n张**，杨**\n注意：入郑扫码时请输入全名，不能用星号代替","张*");
+                var myposition=prompt("请输入地址，如\n郑州市火车站地区管理委员会\n郑州火车站\n金阳光居易小区\n雨溪生活超市","金阳光居易");
+    </script>
+            <title>河南省疫情防控场所码</title>
             <meta name="viewport" content="initial-scale=1, maximum-scale=1">
             <link rel="stylesheet" href="./css/2022.06.06.css">
             <link rel="stylesheet" href="./css/font_1629426_a0wa7qco4b8.css">
@@ -25,7 +30,7 @@
   </div>
   <div class="upperBody">
     <div id="placename">
-      <span>郑州市新华书店</span>
+      <span><script>document.write(myposition);</script></span>
     </div>
     <div id="wave1"></div>
     <div id="wave2"></div>
@@ -41,7 +46,7 @@
   <div id="middle">
     <div id="personInfo">
       <div id="personName">
-        <span>张*</span>
+        <span><script>document.write(myname);</script></span>
       </div>
       <div id="personId">
       <span>410821********0013 </span> <span class="iconfont">&#xe611;</span>

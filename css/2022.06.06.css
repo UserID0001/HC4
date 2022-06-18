@@ -260,7 +260,7 @@ html {
  text-align: center;
  display: flex;
  flex-direction: column;
- justify-content: space-between;
+ justify-content: space-around;
 }
 
 #lowerBody1a, #lowerBody2a{

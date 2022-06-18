@@ -31,7 +31,6 @@ html {
 
 #title{
   height: 3rem;
-  te xt-align: center;
   background-color: white;
   line-height: 3rem;
   font-size: 1.1rem;
@@ -44,6 +43,7 @@ html {
 #title1, #title2{
   font-size: 1.2rem;
 }
+
 .upperBody{
   font-family: PingFangSC-Regular;
   position: relative;
@@ -52,7 +52,6 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
-  jus tify-content:space-around;
   text-align: center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -151,6 +150,7 @@ html {
   margin: 0 auto;
   border-bottom: 1px 	#F0F0F0 solid;
 }
+
 #personName{
   font-size: 1.5rem;
   font-weight: 500;
@@ -169,6 +169,7 @@ html {
   margin: 0 auto;
   margin-top: 15px;
 }
+
 #hesuan, #yimiao{
   width: 39vw;
   height: 13vh;
@@ -182,21 +183,32 @@ html {
   color: white;
   display: flex;
   flex-direction: column;
-  justify-content:center;
+  justify-content: center;
   text-align: center;
 }
 
 #hesuan1{
   font-weight: 700;
 }
+
 #hesuan2{
   display: flex;
   flex-direction: row;
   justify-content: center;
+  text-align: center;
 }
+
 #hesuan2a{
   font-size: 3rem;
   font-weight: 600;
+}
+
+#hesuan2b{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+
 }
 
 #yimiao{
@@ -220,18 +232,22 @@ html {
   font-size: 2rem;
   color: #3cbaf9;
 }
+
 #lowerBody{
   width: 90vw;
-  height: 12vh;
+  height: 15vh;
   background-color: white;
   margin: 0 auto;
   margin-top: 20px;
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 #lowerBodyWrapper{
   width: 82vw;
-  height: 10vh;
+  height: 12vh;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
@@ -239,26 +255,35 @@ html {
 }
 
 #lowerBody1{
- width: 46vw;
- height: 10vh;
- margin-top: 1vh;
- float: left;
+ width: 39vw;
+ height: 12vh;
+ text-align: center;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
 }
 
 #lowerBody1a, #lowerBody2a{
   font-weight: 800;
-  line-height: 1rem;
 }
+
+#lowerBody1b{
+  color: #3cbaf9;
+  border: 1px solid #3cbaf9;
+  border-radius: 20px;
+  line-height: 1.7em;
+  width: 90px;
+  margin: 0 auto;
+}
+
 #lowerBody2{
-  width: 30vw;
-  height: 10vh;
-  margin-top: 1vh;
+  width: 39vw;
+  height: 12vh;
   border-radius: 5px;
   background: #f5fafe;
-  float: right;
   color: #3cbaf9;
   font-weight: 600;
-  text-align: center  ;
+  text-align: center;
 }
 
 .lowerBody2b{

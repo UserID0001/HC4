@@ -12,12 +12,7 @@
             <meta name='x5-fullscreen' content='true' />
             <!-- 360浏览器独有的 -->
             <meta name='360-fullscreen' content='true' />
-            <script type="text/javascript">
-                var mytitle=prompt("请输入网页标题，如\n入郑健康扫码\n郑州市餐饮健康扫码\n金水区办公楼健康扫码\n公共服务健康扫码\n金水区企业健康扫码\n全市居民小区健康登记管理系统","河南省疫情防控场所码");
-                var myname=prompt("请输入姓名，如\n张**，杨**\n注意：入郑扫码时请输入全名，不能用星号代替","张*");
-                var myposition=prompt("请输入地址，如\n郑州市火车站地区管理委员会\n郑州火车站\n郑州车站东北出口\n雨溪生活超市","金阳光居易");
-    </script>
-            <title>河南省疫情防控场所码</title>
+            <title></title>
             <meta name="viewport" content="initial-scale=1, maximum-scale=1">
             <link rel="stylesheet" href="./css/2022.06.06.css">
             <link rel="stylesheet" href="./css/font_1629426_a0wa7qco4b8.css">
@@ -30,26 +25,24 @@
   </div>
   <div class="upperBody">
     <div id="placename">
-      <span><script>document.write(myposition);</script></span>
+      <span id="placename1">sdsdf</span>
     </div>
     <div id="wave1"></div>
     <div id="wave2"></div>
     <div id="time">
       <div id="MyDateDisplay" class="dateDisplay">
-        <script type="text/javascript" src="./js/date.js"></script>
       </div>
       <div id="MyClockDisplay" class="ClockDisplay">
-        <script type="text/javascript" src="./js/time.js"></script>
       </div>
     </div>
   </div>
   <div id="middle">
     <div id="personInfo">
       <div id="personName">
-        <span id="xxx">张*</span>
+        <span id="personName1"></span>
       </div>
       <div id="personId">
-      <span id="yyy">410821********0013 </span> <span class="iconfont" onclick="myFunction()">&#xe611;</span>
+      <span id="personId1"></span> <span class="iconfont" id="hideandshow">&#xe611;</span>
       </div>
     </div>
     <div id="medicalInfo">
@@ -63,7 +56,7 @@
           </div>
         </div>
       </div>
-      <div id="yimiao" onclick="window.location.href='https://userid0001.github.io/Certi/'">
+      <div id="yimiao">
         <p id="yimiao1">疫苗接种</p>
         <span class="yimiao2">已接种</span><span id="three"> 3 </span><span class="yimiao2">针剂</span>
       </div>
@@ -74,17 +67,21 @@
       <div id="lowerBody1">
         <span id="lowerBody1a">最近核酸检测</span>
         <span id="lowerBody1b">采样时间</span>
-        <span id="lowerBody1c"><script type="text/javascript" src="./js/date2.js"></script></span>
+        <span id="lowerBody1c"></span>
       </div>
       <div id="lowerBody2">
         <p id="lowerBody2a">距到期还剩</p>
-        <span class="lowerBody2b">38</span>小时<span class="lowerBody2b">18</span>分
+        <span class="lowerBody2b"></span>小时<span class="lowerBody2b"></span>分
       </div>
     </div>
   </div>
   <button id="tripCard" onclick="window.location.href='http://userid0001.github.io/TC'">查看行程卡
   </button>
-  <script type='text/javascript' src='./js/click.js' charset='utf-8'></script>
+  <script type="text/javascript" src="./js/inputInfo.js"></script>
+  <script type='text/javascript' src='./js/date.js' charset='utf-8'></script>
+  <script type='text/javascript' src='./js/time.js' charset='utf-8'></script>
+  <script type="text/javascript" src="./js/date2.js"></script>
+  <script type="text/javascript" src="./js/timeleft.js"></script>
 
 <!--   
         <ul id="OtherTagsWrapper" class="other-tags-list">
@@ -109,6 +106,5 @@
     -->
     
     <!--<script type='text/javascript' src='./js/water.js?v=1' charset='utf-8'></script>-->
-    <script>document.title = (mytitle)</script>
 </body>
 </html>

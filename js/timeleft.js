@@ -13,12 +13,12 @@
 
     if (m >= 38){
         minleft = 98 - m;
-        hourleft = 68 - h;
+        hourleft = 66 - h;
     }
 
     if (m < 38){
         minleft = Math.abs(m - 38);
-        hourleft = 69 - h;
+        hourleft = 67 - h;
     }
     
     if (minleft == 0){
@@ -27,6 +27,6 @@
 
     document.getElementsByClassName("lowerBody2b")[0].innerText = hourleft;
     document.getElementsByClassName("lowerBody2b")[1].innerText = minleft;
-    setTimeout(showTime, 1000);
+    setTimeout(showTimeLeft, 1000);
     }
 showTimeLeft();

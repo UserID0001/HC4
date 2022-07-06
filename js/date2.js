@@ -12,7 +12,7 @@
 
    
     var date = mon + "月" + d + "日";
-     document.getElementById("lowerBody1c").innerText = date + "\xa0\xa0" + "9:38";
+     document.getElementById("lowerBody1c").innerText = date + "\xa0\xa0" + "7:38";
      //document.getElementById("MyClockDisplay").textContent = time;
      //setTimeout(showTime, 1000);
     }
